@@ -47,7 +47,11 @@ You should get something like this:
 	
 	$ sudo add-apt-repository \
    	"deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+<<<<<<< HEAD
    	$(lsb_release -cs) \
+=======
+   	$ (lsb_release -cs) \
+>>>>>>> upstream/master
    	stable"
 
 **7. Install Docker CE:**
@@ -110,7 +114,14 @@ and point your browser to [http://localhost:8000](http://localhost:8000) and [ht
 
 Type in the following commands:
 
+<<<<<<< HEAD
 	$sudo apt-get install docker
 	$sudo apt-get install docker-compose 
 
 **1. Enjoy!**
+=======
+	$ sudo apt-get install docker
+	$ sudo apt-get install docker-compose 
+
+**1. Enjoy!**
+>>>>>>> upstream/master
